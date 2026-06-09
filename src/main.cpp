@@ -1,10 +1,7 @@
 #define BLYNK_TEMPLATE_ID "TMPL4SDzs183M"
 #define BLYNK_TEMPLATE_NAME "Walli and noor RC car dinge"
-#define BLYNK_AUTH_TOKEN "i1BC-uodsj3OXkzBSh0XJyb4df5rQcxv"
-char ssid[] = "iPhone XS Max";
-char pass[] = "noor1234";
 
-
+#include "private_credentials.h"
 
 #include <Arduino.h>
 #include <WiFi.h>
